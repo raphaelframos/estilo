@@ -9,5 +9,7 @@
     <string name="sobrenome">Sobrenome</string>
     <string name="email">Email</string>
     <string name="cidade">Cidade</string>
+    <string name="formulario_2">Formulário 2</string>
+    <string name="estilizado">Estilizado</string>
 
 </resources>

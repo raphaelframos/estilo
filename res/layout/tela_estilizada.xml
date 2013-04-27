@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FillWrap"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="@string/formulario"
+        style="@style/Cabecalho" />
+
+    <TableLayout
+        style="@style/FillWrap" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/FillWrap" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="@string/nome"
+                style="@style/Label" />
+
+            <EditText
+                android:id="@+id/editText1"
+                style="@style/EditText" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            style="@style/FillWrap" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="@string/sobrenome"
+                style="@style/Label" />
+
+            <EditText
+                android:id="@+id/editText2"
+                style="@style/EditText" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            style="@style/FillWrap" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="@string/cidade"
+                style="@style/Label" />
+
+            <EditText
+                android:id="@+id/editText3"
+                style="@style/EditText" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            style="@style/FillWrap" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:text="@string/email"
+                style="@style/Label" />
+
+            <EditText
+                android:id="@+id/editText4"
+                style="@style/EditText" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:text="@string/formulario_2"
+        style="@style/Cabecalho" />
+
+    <Button
+        android:id="@+id/buttonEstilizado"
+        android:layout_gravity="center_horizontal"
+        style="@style/WrapWrap"
+        android:text="@string/estilizado" />
+
+</LinearLayout>

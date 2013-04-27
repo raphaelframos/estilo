@@ -24,7 +24,8 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000e;
+        public static final int action_settings=0x7f08000f;
+        public static final int buttonEstilizado=0x7f08000e;
         public static final int editText1=0x7f080003;
         public static final int editText2=0x7f080006;
         public static final int editText3=0x7f080009;
@@ -42,6 +43,7 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int tela_estilizada=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -51,22 +53,15 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int cidade=0x7f050007;
         public static final int email=0x7f050006;
+        public static final int estilizado=0x7f050009;
         public static final int formulario=0x7f050003;
+        public static final int formulario_2=0x7f050008;
         public static final int hello_world=0x7f050002;
         public static final int nome=0x7f050004;
         public static final int sobrenome=0x7f050005;
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -78,10 +73,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
-         */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppBaseTheme=0x7f060005;
+        public static final int Cabecalho=0x7f060002;
+        public static final int EditText=0x7f060004;
+        public static final int FillWrap=0x7f060000;
+        public static final int Label=0x7f060003;
+        public static final int WrapWrap=0x7f060001;
     }
 }

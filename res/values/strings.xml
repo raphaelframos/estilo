@@ -4,5 +4,10 @@
     <string name="app_name">Estilo</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="formulario">Formulário</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="email">Email</string>
+    <string name="cidade">Cidade</string>
 
 </resources>
